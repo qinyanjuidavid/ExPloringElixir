@@ -45,3 +45,9 @@ String.reverse(title) |> IO.puts
 String.capitalize(title) |> IO.puts
 String.length(title) |> IO.puts
 String.split(title,"") |> IO.inspect
+
+String.first(title) |> IO.puts
+String.last(title) |> IO.puts
+String.at(title,5) |> IO.puts
+String.slice(title,1,5) |> IO.puts
+String.contains?(title,"jerry") |> IO.puts
