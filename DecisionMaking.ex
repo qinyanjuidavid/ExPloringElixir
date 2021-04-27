@@ -30,3 +30,10 @@ cond do
   marks>=19 and marks<=5 -> IO.puts("E")
   marks>=0 and marks<=4 -> IO.puts("F")
 end
+
+age=20
+unless age===20 do
+  IO.puts("You can drive and vote.")
+else
+  IO.puts("You can wait")
+end
