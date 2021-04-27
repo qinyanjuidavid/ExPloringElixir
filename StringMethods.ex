@@ -42,3 +42,6 @@ end
 
 title="Just a Simple String"
 String.reverse(title) |> IO.puts
+String.capitalize(title) |> IO.puts
+String.length(title) |> IO.puts
+String.split(title,"") |> IO.inspect
