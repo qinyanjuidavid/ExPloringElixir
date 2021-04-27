@@ -39,3 +39,6 @@ if age>=18 do
 else
     IO.puts("You should get some coffee...")
 end
+
+title="Just a Simple String"
+String.reverse(title) |> IO.puts
