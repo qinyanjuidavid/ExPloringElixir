@@ -80,3 +80,26 @@ cond do
     totalGrade>=0 and totalGrade<=3 -> IO.puts("F")
     true -> IO.puts("Invalid Marks")
 end
+
+
+
+#Case as a condition
+
+case 2 do
+    1 -> IO.puts("Entered 1.")
+    2 -> IO.puts("Entered 2.")
+    _ -> IO.puts("Invalid Entry.")
+end
+
+#Case marks
+day=3
+case day do
+    1 -> IO.puts("Sunday")
+    2 -> IO.puts("Monday")
+    3 -> IO.puts("Tuesday")
+    4 -> IO.puts("Wednesday")
+    5 -> IO.puts("Thursday")
+    6 -> IO.puts("Friday")
+    7 -> IO.puts("Saturday")
+    _ -> IO.puts("Invalid Entry!")
+end
