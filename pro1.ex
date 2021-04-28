@@ -72,3 +72,26 @@ IO.puts("Reversed: #{String.reverse(name)}")
 IO.puts("Down Case: #{String.downcase(name)}")
 title="elixir is awesome"
 IO.puts("Capitalize: #{String.capitalize(title)}")
+
+
+
+#Passing a data type to another function
+4*10 |> IO.puts
+String.split(title,"") |> IO.inspect
+"My name is Jane Doe" |> IO.puts
+String.reverse(title) |> IO.puts
+String.capitalize(title) |> IO.puts
+String.length(title) |> IO.puts
+String.downcase(title) |> IO.puts
+String.upcase(title) |> IO.puts
+#Index
+String.at(title,1) |> IO.puts
+String.first(title) |> IO.puts
+String.last(title) |> IO.puts
+#Slicing
+String.slice(title,5,8) |> IO.puts
+String.slice(title,0,5) |> IO.puts
+String.contains?(title,"elixir") |> IO.puts
+first_name="Jane"
+last_name="Doe"
+first_name <> " " <> last_name |> IO.puts
