@@ -36,3 +36,22 @@ IO.puts(longer<>" "<>smaller)
 #Comparison
 IO.puts("Equal : #{"Egg"==="Egg"}")
 IO.puts("Equal: #{"space"=="space"}")
+
+
+#contains
+longer="Tom and Jerry"
+IO.puts("Tom: #{String.contains?(longer,"Tom")}")
+IO.puts("Je in Jerry: #{String.contains?(longer,"Je")}")
+#Indexing
+IO.puts("First: #{String.first(longer)}")
+IO.puts("Last: #{String.last(longer)}")
+IO.puts("Fourth: #{String.at(longer,4)}")
+IO.puts("Last: #{String.at(longer,-1)}")
+IO.puts("Seventh: #{String.at(longer,8)}")
+#Slicing
+IO.puts("Substring: #{String.slice(longer,4,9)}")
+IO.puts("Substring: #{String.slice(longer,0,3)}")
+l=String.length(longer)
+IO.puts(l)
+IO.puts("Substing: #{String.slice(longer,0,l)}")
+IO.puts("Substring: #{String.slice(longer,5,8)}")
