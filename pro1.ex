@@ -55,3 +55,20 @@ l=String.length(longer)
 IO.puts(l)
 IO.puts("Substing: #{String.slice(longer,0,l)}")
 IO.puts("Substring: #{String.slice(longer,5,8)}")
+
+
+#String to list
+IO.inspect String.split(longer,"")
+IO.inspect String.split(smaller,"")
+IO.inspect("#{String.split(longer,"")}") # This does not work
+#Reversing strings
+myStr="Crew Dragon 2 is awesome"
+IO.puts("Reversed String: #{String.reverse(myStr)}")
+IO.puts("Upper: #{String.upcase(myStr)}")
+IO.puts("Lower Case: #{String.downcase(myStr)}")
+name="John Doe"
+IO.puts("Upper case: #{String.upcase(name)}")
+IO.puts("Reversed: #{String.reverse(name)}")
+IO.puts("Down Case: #{String.downcase(name)}")
+title="elixir is awesome"
+IO.puts("Capitalize: #{String.capitalize(title)}")
