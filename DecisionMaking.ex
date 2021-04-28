@@ -37,3 +37,20 @@ unless age===20 do
 else
   IO.puts("You can wait")
 end
+
+
+#Decision making
+#If statement
+age=16
+if age>= 18 do
+    IO.puts("Can Vote.")
+else
+    IO.puts("Can\'t Vote.")
+end
+#Using the unless condition
+age=19
+unless age === 18 do
+    IO.puts("You are not 18.")
+else
+    IO.puts("Can Vote.")
+end
