@@ -24,3 +24,15 @@ IO.puts("Atom: #{my_atom}")
 IO.puts("Atom: #{is_atom(my_atom)}")
 new_atom=:"John Doe"
 IO.puts("Atom: #{new_atom}")
+
+#String
+my_str="Tom and Jerry is awesome."
+IO.puts("Length: #{String.length(my_str)}")
+IO.puts(my_str)
+longer="Tom and Jerry"
+smaller="is awesome."
+#String concatination
+IO.puts(longer<>" "<>smaller)
+#Comparison
+IO.puts("Equal : #{"Egg"==="Egg"}")
+IO.puts("Equal: #{"space"=="space"}")
